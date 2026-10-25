@@ -1,0 +1,28 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Your data never belongs in git
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+backend/data/
+backend/snapshots/
+backend/database/backups/
+backend/scripts/*checkpoint*.json
+*.csv
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# Node / Next.js
+node_modules/
+.next/
+next-env.d.ts
+*.tsbuildinfo
+.DS_Store
